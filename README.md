@@ -1,10 +1,7 @@
 # Yohesh | Full Stack Developer & AR Engineer 🚀
 
 <div align="center">
-  <!-- Dynamic Banner matching the TOVAT bold art theme of your portfolio -->
-  <img src="github_profile_banner.png" width="100%" alt="Yohesh's Profile Banner" style="border-radius: 16px;" />
 
-  <br/>
 
   <!-- Interactive Tech Stack Badges -->
   <p>
