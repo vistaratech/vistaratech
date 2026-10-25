@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yohesh - Founding Engineer &amp; Full-Stack Hardware Architect Resume</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary: #0f172a;
+      --accent: #2563eb;
+      --text: #1e293b;
+      --text-muted: #475569;
+      --border: #e2e8f0;
+      --tag-bg: #f1f5f9;
+      --tag-text: #0f172a;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      color: var(--text);
+      background-color: #f8fafc;
+      line-height: 1.5;
+      padding: 30px 15px;
+    }
+
+    .resume-container {
+      max-width: 850px;
+      margin: 0 auto;
+      background: #ffffff;
+      padding: 45px 50px;
+      border-radius: 8px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+      border: 1px solid var(--border);
+    }
+
+    /* Print Button Bar */
+    .action-bar {
+      max-width: 850px;
+      margin: 0 auto 20px auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .btn-print {
+      background: var(--primary);
+      color: #ffffff;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 6px;
+      font-size: 14px;
+      font-weight: 600;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      transition: all 0.2s ease;
+    }
+
+    .btn-print:hover {
+      background: #1e293b;
+      transform: translateY(-1px);
+    }
+
+    .notice {
+      font-size: 13px;
+      color: var(--text-muted);
+    }
+
+    /* Header */
+    header {
+      border-bottom: 2px solid var(--primary);
+      padding-bottom: 16px;
+      margin-bottom: 20px;
+    }
+
+    h1.name {
+      font-size: 32px;
+      font-weight: 800;
+      color: var(--primary);
+      letter-spacing: -0.5px;
+      line-height: 1.1;
+    }
+
+    .title {
+      font-size: 16px;
+      font-weight: 600;
+      color: var(--accent);
+      margin-top: 4px;
+      letter-spacing: 0.2px;
+    }
+
+    .contact-line {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 14px;
+      font-size: 13px;
+      color: var(--text-muted);
+      margin-top: 10px;
+      align-items: center;
+    }
+
+    .contact-line a {
+      color: var(--text);
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    .contact-line a:hover {
+      color: var(--accent);
+      text-decoration: underline;
+    }
+
+    .contact-line span.dot {
+      color: #cbd5e1;
+    }
+
+    /* Sections */
+    section {
+      margin-bottom: 22px;
+    }
+
+    .section-title {
+      font-size: 14px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 1.2px;
+      color: var(--primary);
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 4px;
+      margin-bottom: 12px;
+    }
+
+    /* Summary */
+    .summary-text {
+      font-size: 13.5px;
+      color: #334155;
+      text-align: justify;
+      line-height: 1.6;
+    }
+
+    /* Skills Grid */
+    .skills-grid {
+      display: grid;
+      grid-template-columns: 140px 1fr;
+      row-gap: 8px;
+      font-size: 13px;
+    }
+
+    .skill-label {
+      font-weight: 600;
+      color: var(--primary);
+    }
+
+    .skill-values {
+      color: #334155;
+    }
+
+    /* Experience & Projects */
+    .item-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      margin-bottom: 2px;
+    }
+
+    .item-title {
+      font-size: 14.5px;
+      font-weight: 700;
+      color: var(--primary);
+    }
+
+    .item-sub {
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--accent);
+    }
+
+    .item-date {
+      font-size: 12.5px;
+      color: var(--text-muted);
+      font-family: 'JetBrains Mono', monospace;
+    }
+
+    .project-card {
+      margin-bottom: 14px;
+      page-break-inside: avoid;
+    }
+
+    .tech-pill-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin: 4px 0 6px 0;
+    }
+
+    .tech-pill {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 11px;
+      background: var(--tag-bg);
+      color: var(--tag-text);
+      padding: 2px 7px;
+      border-radius: 4px;
+      font-weight: 500;
+      border: 1px solid #e2e8f0;
+    }
+
+    ul.bullet-list {
+      list-style-type: none;
+      padding-left: 0;
+      margin-top: 4px;
+    }
+
+    ul.bullet-list li {
+      font-size: 13px;
+      color: #334155;
+      position: relative;
+      padding-left: 16px;
+      margin-bottom: 4px;
+      line-height: 1.5;
+    }
+
+    ul.bullet-list li::before {
+      content: "•";
+      position: absolute;
+      left: 2px;
+      color: var(--accent);
+      font-weight: bold;
+    }
+
+    ul.bullet-list li strong {
+      color: var(--primary);
+    }
+
+    /* Links */
+    a.project-link {
+      color: var(--accent);
+      font-size: 12px;
+      text-decoration: none;
+      font-weight: 600;
+      margin-left: 8px;
+    }
+
+    a.project-link:hover {
+      text-decoration: underline;
+    }
+
+    /* Print Styles */
+    @media print {
+      body {
+        background: transparent;
+        padding: 0;
+        color: #000;
+      }
+
+      .resume-container {
+        max-width: 100%;
+        padding: 0;
+        box-shadow: none;
+        border: none;
+      }
+
+      .action-bar {
+        display: none !important;
+      }
+
+      .project-card {
+        page-break-inside: avoid;
+      }
+
+      header {
+        border-bottom-color: #000;
+      }
+
+      .section-title {
+        border-bottom-color: #ccc;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Floating Print Control -->
+  <div class="action-bar">
+    <button class="btn-print" onclick="window.print()">
+      <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M6 9V2h12v7M6 18H4a2 2 0 01-2-2v-5a2 2 0 012-2h16a2 2 0 012 2v5a2 2 0 01-2 2h-2M6 14h12v8H6z"></path></svg>
+      Print / Save as PDF
+    </button>
+    <span class="notice">Tip: In Print preview, select <b>Destination: Save as PDF</b> and set <b>Margins: Default</b></span>
+  </div>
+
+  <div class="resume-container">
+    
+    <!-- HEADER -->
+    <header>
+      <h1 class="name">YOHESH</h1>
+      <div class="title">Founding Engineer &amp; Full-Stack Hardware Architect</div>
+      <div class="contact-line">
+        <span>+91 88833 88365</span>
+        <span class="dot">•</span>
+        <a href="mailto:vitneshimmanuvel@gmail.com">vitneshimmanuvel@gmail.com</a>
+        <span class="dot">•</span>
+        <a href="https://github.com/vistaratech" target="_blank">github.com/vistaratech</a>
+        <span class="dot">•</span>
+        <a href="https://www.easyrecords.in" target="_blank">easyrecords.in</a>
+        <span class="dot">•</span>
+        <span>India</span>
+      </div>
+    </header>
+
+    <!-- SUMMARY -->
+    <section>
+      <div class="section-title">Professional Summary</div>
+      <p class="summary-text">
+        Hands-on <b>Founding Engineer and Full-Stack Hardware Architect</b> with 4+ years of experience engineering end-to-end production software and physical IoT systems. Proven capability in taking complex concepts from 0-to-1: bridging low-latency physical hardware (ESP32 microcontrollers, 5G BVLOS UAV systems, automated Raspberry Pi kiosks) with scalable cloud platforms (Next.js, Flutter, Node.js, PostgreSQL). Builder of live enterprise SaaS products actively serving institutions, with an emphasis on speed, ownership, and deep-tech innovation.
+      </p>
+    </section>
+
+    <!-- TECHNICAL COMPETENCIES -->
+    <section>
+      <div class="section-title">Core Technical Competencies</div>
+      <div class="skills-grid">
+        <div class="skill-label">Languages</div>
+        <div class="skill-values">TypeScript, JavaScript, Python, Dart, C++, Kotlin, SQL, HTML5/CSS3</div>
+
+        <div class="skill-label">Frontend &amp; Mobile</div>
+        <div class="skill-values">Next.js 15 (App Router), React 19, Flutter, React Native (Expo 57), Three.js (3D/WebXR), Tailwind CSS</div>
+
+        <div class="skill-label">Backend &amp; Cloud</div>
+        <div class="skill-values">Node.js, Express, WebSockets, WebRTC, REST APIs, PostgreSQL, SQLite, Supabase, Vercel, Cloudflare</div>
+
+        <div class="skill-label">Hardware &amp; IoT</div>
+        <div class="skill-values">ESP32 (C3/S3), Raspberry Pi 4, BLE 5.0, PWM/I2C/UART, 3D Mechanical Prototyping, Cellular UAV Modems</div>
+
+        <div class="skill-label">DevOps &amp; Tools</div>
+        <div class="skill-values">Git, Docker, Puppeteer, Linux/Bash Scripting, PowerShell, Electron (Native Windows Desktop Packaging)</div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section>
+      <div class="section-title">Professional Experience</div>
+      <div class="project-card">
+        <div class="item-header">
+          <div>
+            <span class="item-title">VistaraTech</span> — <span class="item-sub">Founder &amp; Lead Full-Stack Architect</span>
+          </div>
+          <span class="item-date">2022 – Present</span>
+        </div>
+        <ul class="bullet-list">
+          <li>Architected and shipped <b>15+ production systems</b> spanning automated hardware kiosks, 5G cellular drone telemetry, and multi-tenant enterprise SaaS applications.</li>
+          <li>Engineered <b>PrintBox Pro</b>, an automated self-service cloud printing kiosk supporting QR scan, UPI payment gateway, Raspberry Pi controllers, and Windows background print agents.</li>
+          <li>Designed <b>SuperDrone 5G</b>, a sub-30ms BVLOS UAV cloud teleoperation system streaming 1080p 60fps WebRTC video over 5G networks with an Apple VisionOS-inspired browser GCS.</li>
+          <li>Launched and commercialized <b>Easy Records v2.1</b> (<a href="https://www.easyrecords.in" target="_blank" style="color: inherit; font-weight:600;">easyrecords.in</a>), an enterprise SaaS platform with custom subdomains and a native Windows desktop installer.</li>
+          <li>Pioneered <b>Rodeway AR</b>, a spatial mobility system linking AI turn-by-turn augmented reality routing with smart motorcycle handlebar BLE turn indicators.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- FLAGSHIP PRODUCTS & SYSTEMS -->
+    <section>
+      <div class="section-title">Flagship Products &amp; Deep-Tech Systems</div>
+
+      <!-- PrintBox -->
+      <div class="project-card">
+        <div class="item-header">
+          <span class="item-title">PrintBox Pro — Autonomous Cloud &amp; Kiosk Self-Service Printing Platform</span>
+          <a class="project-link" href="https://github.com/vistaratech/printbox" target="_blank">[GitHub]</a>
+        </div>
+        <div class="tech-pill-row">
+          <span class="tech-pill">TypeScript</span>
+          <span class="tech-pill">Node.js</span>
+          <span class="tech-pill">Express</span>
+          <span class="tech-pill">SQLite</span>
+          <span class="tech-pill">Raspberry Pi</span>
+          <span class="tech-pill">Windows Agent</span>
+        </div>
+        <ul class="bullet-list">
+          <li>Eliminated operator bottlenecks in university and retail printing by building an unattended kiosk workflow: <b>Scan QR Code ➜ Upload Files via Smartphone ➜ Pay via UPI/Razorpay ➜ Collect Printout in Seconds</b>.</li>
+          <li>Created real-time bidirectional WebSocket spoolers to drive both Raspberry Pi physical kiosks and desktop Windows Xerox agents.</li>
+        </ul>
+      </div>
+
+      <!-- SuperDrone 5G -->
+      <div class="project-card">
+        <div class="item-header">
+          <span class="item-title">SuperDrone 5G — Sub-30ms BVLOS UAV Cloud Teleoperation System</span>
+          <a class="project-link" href="https://github.com/vistaratech/super-drone" target="_blank">[GitHub]</a>
+        </div>
+        <div class="tech-pill-row">
+          <span class="tech-pill">Node.js</span>
+          <span class="tech-pill">WebRTC</span>
+          <span class="tech-pill">ESP32 BLE</span>
+          <span class="tech-pill">Socket.io</span>
+          <span class="tech-pill">HTML5 Canvas HUD</span>
+        </div>
+        <ul class="bullet-list">
+          <li>Architected a cellular-controlled teleoperation system allowing drone flight control over commercial 5G cellular networks from any browser worldwide with <b>&lt;30ms round-trip latency</b>.</li>
+          <li>Engineered 1080p 60fps WebRTC video pipelines and a Tesla/VisionOS-inspired browser GCS cockpit with artificial horizon, GPS tracking, and gamepad controls.</li>
+        </ul>
+      </div>
+
+      <!-- Easy Records -->
+      <div class="project-card">
+        <div class="item-header">
+          <span class="item-title">Easy Records v2.1 — Multi-Tenant School &amp; Enterprise SaaS Platform</span>
+          <a class="project-link" href="https://www.easyrecords.in" target="_blank">[Live: easyrecords.in]</a>
+        </div>
+        <div class="tech-pill-row">
+          <span class="tech-pill">Next.js 15</span>
+          <span class="tech-pill">TypeScript</span>
+          <span class="tech-pill">PostgreSQL</span>
+          <span class="tech-pill">Electron</span>
+          <span class="tech-pill">TailwindCSS</span>
+        </div>
+        <ul class="bullet-list">
+          <li>Built and deployed a production multi-tenant educational database platform managing student records, attendance, report cards, and fee ledgers.</li>
+          <li>Packaged native Windows desktop application installer with local caching and offline synchronization capabilities.</li>
+        </ul>
+      </div>
+
+      <!-- Rodeway AR -->
+      <div class="project-card">
+        <div class="item-header">
+          <span class="item-title">Rodeway AR &amp; Smart BLE Indicator — Spatial Mobility Ecosystem</span>
+          <a class="project-link" href="https://github.com/vistaratech/Rodeway" target="_blank">[GitHub]</a>
+        </div>
+        <div class="tech-pill-row">
+          <span class="tech-pill">Flutter</span>
+          <span class="tech-pill">Unity</span>
+          <span class="tech-pill">PyTorch</span>
+          <span class="tech-pill">ESP32 BLE 5.0</span>
+          <span class="tech-pill">Android</span>
+        </div>
+        <ul class="bullet-list">
+          <li>Engineered smart motorcycle handlebar turn indicators communicating via Bluetooth Low Energy (BLE) that automatically flash based on live route navigation.</li>
+          <li>Developed an accompanying Flutter/Unity AR navigation client overlaying directional arrows on the road ahead to prevent distracted driving.</li>
+        </ul>
+      </div>
+
+      <!-- 32Tooth DentalOS & ShipFlow -->
+      <div class="project-card">
+        <div class="item-header">
+          <span class="item-title">32Tooth DentalOS &amp; ShipFlow 3D Logistics</span>
+          <a class="project-link" href="https://github.com/vistaratech" target="_blank">[GitHub Organization]</a>
+        </div>
+        <div class="tech-pill-row">
+          <span class="tech-pill">React 19</span>
+          <span class="tech-pill">Three.js</span>
+          <span class="tech-pill">Vite</span>
+          <span class="tech-pill">IndexedDB</span>
+        </div>
+        <ul class="bullet-list">
+          <li><b>DentalOS:</b> Dental clinic EHR platform with digital tooth charting, appointment scheduler, and revenue analytics.</li>
+          <li><b>ShipFlow Logistics:</b> Real-time 3D cargo container visualization platform mapping China-to-India maritime shipping milestones.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- KEY HIGHLIGHTS -->
+    <section>
+      <div class="section-title">Key Highlights for Startups</div>
+      <ul class="bullet-list">
+        <li><b>0-to-1 Rapid Execution:</b> Capable of independently designing, prototyping, coding, and shipping complete working MVPs in 7–14 days.</li>
+        <li><b>Hardware-to-Cloud Mastery:</b> Rare breadth covering 3D mechanical CAD, PCB/ESP32 microcontrollers, low-level C++ firmware, and high-scale cloud web services.</li>
+        <li><b>Active Codebases:</b> Authored and maintained 35+ repositories with active production users and zero third-party dependencies.</li>
+      </ul>
+    </section>
+
+    <!-- EDUCATION -->
+    <section>
+      <div class="section-title">Education</div>
+      <div class="item-header">
+        <span class="item-title">Bachelor of Engineering / Technology in Computer Science &amp; Engineering</span>
+        <span class="item-date">[Year / College]</span>
+      </div>
+    </section>
+
+  </div>
+
+</body>
+</html>
