@@ -1,41 +1,71 @@
 <div align="center">
 
-  <!-- Animated Glowing Wave Header Banner -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=2,14,23,30&height=220&section=header&text=Yohesh%20%7C%20VistaraTech&fontSize=42&fontColor=ffffff&animation=twinkling&fontAlignY=36&desc=Full%20Stack%20%E2%80%A2%20Hardware%20%26%20Robotics%20%E2%80%A2%205G%20UAV%20%E2%80%A2%20Spatial%20AR%2FVR&descAlignY=58&descAlign=50" width="100%" alt="Header Banner" />
+  <!-- 🌌 Advanced Glowing Wave Header Banner -->
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=1,14,24,32&height=230&section=header&text=Yohesh%20%7C%20VistaraTech&fontSize=42&fontColor=ffffff&animation=twinkling&fontAlignY=36&desc=Full%20Stack%20%E2%80%A2%20Hardware%20%26%20Robotics%20%E2%80%A2%205G%20UAV%20%E2%80%A2%20Spatial%20AR%2FVR&descAlignY=58&descAlign=50" width="100%" alt="Header Banner" />
 
-  <!-- Animated Typewriter Effect -->
-  <p align="center">
-    <a href="https://github.com/vistaratech">
-      <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=21&duration=2800&pause=1000&color=00D2FF&center=true&vCenter=true&width=680&lines=Full+Stack+Engineer+%7C+Founder+%40+VistaraTech;Hardware+%26+Autonomous+Robotics+Developer;5G+BVLOS+UAV+Teleoperation+Architect;AR%2FVR+%26+Spatial+Computing+Creator;Creator+of+PrintBox+Pro+%26+SuperDrone+5G" alt="Typing SVG" />
-    </a>
-  </p>
+  <!-- 💻 Interactive Cyber Terminal Window (Vistara OS CLI) -->
+  <table border="0" align="center" width="90%">
+    <tr>
+      <td align="left" bgcolor="#0d1117" style="border:1px solid #30363d; border-radius:12px; padding:12px 18px;">
+        <span style="color:#ff5f56; font-size:16px;">●</span>&nbsp;
+        <span style="color:#ffbd2e; font-size:16px;">●</span>&nbsp;
+        <span style="color:#27c93f; font-size:16px;">●</span>
+        &nbsp;&nbsp;<code><b>yohesh@vistara-core:~ (zsh)</b></code>
+        <br/><br/>
+        <a href="https://github.com/vistaratech">
+          <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=15&duration=2400&pause=1100&color=00F5FF&multiline=true&width=700&height=110&lines=yohesh%40vistara-core%3A~%24+whoami;%3E+Yohesh+%7C+Founder+%26+Lead+Architect+%40+VistaraTech;yohesh%40vistara-core%3A~%24+cat+flagship_systems.json;%3E+%5B%22PrintBox+Pro+Kiosk%22%2C+%22SuperDrone+5G+BVLOS%22%2C+%22Easy+Records+v2.1%22%2C+%22PhoneBot+3D%22%5D;yohesh%40vistara-core%3A~%24+status;%3E+All+systems+online.+Engineering+the+future+of+hardware+%26+software." alt="Interactive Terminal" />
+        </a>
+      </td>
+    </tr>
+  </table>
 
-  <!-- Interactive Quick Action Badges -->
+  <br/>
+
+  <!-- 🚀 Quick Connect & Status Badges -->
   <p align="center">
     <a href="https://github.com/vistaratech">
       <img src="https://img.shields.io/badge/🏢_Organization-VistaraTech-0A66C2?style=for-the-badge&logo=github&logoColor=white" alt="VistaraTech" />
     </a>
     <a href="https://wa.me/918883388365">
-      <img src="https://img.shields.io/badge/💬_WhatsApp-Direct%20Chat-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp" />
+      <img src="https://img.shields.io/badge/💬_WhatsApp-Direct%20Connect-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp" />
     </a>
     <a href="mailto:vitneshimmanuvel@gmail.com">
-      <img src="https://img.shields.io/badge/📧_Email-Direct%20Inbox-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+      <img src="https://img.shields.io/badge/📧_Email-vitneshimmanuvel%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
     </a>
-    <img src="https://img.shields.io/badge/⚡_Status-Shipping%20Innovations-FF6F00?style=for-the-badge" alt="Status" />
+    <img src="https://img.shields.io/badge/⚡_Status-Active%20Engineering-FF6F00?style=for-the-badge" alt="Status" />
   </p>
 
-  <!-- Animated Skill Icons Grid -->
+  <!-- ⚡ Glowing Cyber Neon Divider -->
+  <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%" height="24px" alt="Cyber Divider" />
+
+  <!-- 🛠️ Categorized Animated Developer Icon Decks -->
   <p align="center">
+    <b>Languages & Mobile Frameworks</b><br/>
     <a href="https://skillicons.dev">
-      <img src="https://skillicons.dev/icons?i=ts,js,python,flutter,react,nextjs,nodejs,threejs,cpp,kotlin,postgres,sqlite,git,docker,raspberrypi,arduino&perline=8&theme=dark" alt="Tech Stack Icons" />
+      <img src="https://skillicons.dev/icons?i=ts,js,python,cpp,kotlin,dart,flutter,react&theme=dark" alt="Languages and Mobile" />
     </a>
   </p>
+  <p align="center">
+    <b>Web Platforms, Spatial & Cloud Infrastructure</b><br/>
+    <a href="https://skillicons.dev">
+      <img src="https://skillicons.dev/icons?i=nextjs,nodejs,express,threejs,postgres,sqlite,supabase,vercel&theme=dark" alt="Web and Cloud" />
+    </a>
+  </p>
+  <p align="center">
+    <b>Robotics, Hardware & DevOps</b><br/>
+    <a href="https://skillicons.dev">
+      <img src="https://skillicons.dev/icons?i=raspberrypi,arduino,git,docker,linux,postman,bash,figma&theme=dark" alt="Hardware and DevOps" />
+    </a>
+  </p>
+
+  <!-- ⚡ Glowing Cyber Neon Divider -->
+  <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%" height="24px" alt="Cyber Divider" />
 
 </div>
 
 ---
 
-### 👨‍💻 About Me & Engineering Vision
+### <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="28px" alt="Wave" /> About Me & Engineering Vision
 I am a passionate **Full Stack Engineer**, **Hardware/Robotics Developer**, and **Spatial Computing (AR/VR) Creator**. I engineer end-to-end solutions that bridge high-level cloud software (Next.js, Flutter, Cloud APIs) with low-latency physical hardware (ESP32 microcontrollers, 5G BVLOS UAV teleoperation, Raspberry Pi kiosks, and custom robotics).
 
 My engineering workspace operates across two core initiatives:
@@ -164,6 +194,9 @@ I am always open to discussing new technology ventures, innovative IoT/Robotics 
 ---
 
 <div align="center">
-  <!-- Modern Animated Wave Footer -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=2,14,23,30&height=120&section=footer" width="100%" alt="Footer Banner" />
+  <!-- ⚡ Glowing Cyber Neon Divider -->
+  <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%" height="24px" alt="Cyber Divider" />
+
+  <!-- 🌌 Advanced Animated Wave Footer -->
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=1,14,24,32&height=120&section=footer" width="100%" alt="Footer Banner" />
 </div>
