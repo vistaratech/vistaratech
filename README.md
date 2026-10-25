@@ -1,7 +1,7 @@
 <div align="center">
 
   <!-- 🌌 Advanced Glowing Wave Header Banner -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=1,14,24,32&height=230&section=header&text=Yohesh%20%7C%20VistaraTech&fontSize=42&fontColor=ffffff&animation=twinkling&fontAlignY=36&desc=Full%20Stack%20%E2%80%A2%20Hardware%20%26%20Robotics%20%E2%80%A2%205G%20UAV%20%E2%80%A2%20Spatial%20AR%2FVR&descAlignY=58&descAlign=50" width="100%" alt="Header Banner" />
+  <img src="https://raw.githubusercontent.com/vistaratech/vistaratech/main/assets/header.svg" width="100%" alt="Yohesh | VistaraTech Banner" />
 
   <!-- 💻 Interactive Cyber Terminal Window (Vistara OS CLI) -->
   <table border="0" align="center" width="90%">
@@ -286,5 +286,5 @@ I am always open to discussing new technology ventures, innovative IoT/Robotics 
   <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%" height="24px" alt="Cyber Divider" />
 
   <!-- 🌌 Advanced Animated Wave Footer -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=1,14,24,32&height=120&section=footer" width="100%" alt="Footer Banner" />
+  <img src="https://raw.githubusercontent.com/vistaratech/vistaratech/main/assets/footer.svg" width="100%" alt="Footer Banner" />
 </div>
