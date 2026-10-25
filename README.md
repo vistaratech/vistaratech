@@ -1,37 +1,34 @@
-# Yohesh | Full Stack Engineer, Robotics & AR Innovator 🚀
-
 <div align="center">
 
-  <!-- Interactive Badges Banner -->
-  <p>
+  <!-- Animated Glowing Wave Header Banner -->
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=2,14,23,30&height=220&section=header&text=Yohesh%20%7C%20VistaraTech&fontSize=42&fontColor=ffffff&animation=twinkling&fontAlignY=36&desc=Full%20Stack%20%E2%80%A2%20Hardware%20%26%20Robotics%20%E2%80%A2%205G%20UAV%20%E2%80%A2%20Spatial%20AR%2FVR&descAlignY=58&descAlign=50" width="100%" alt="Header Banner" />
+
+  <!-- Animated Typewriter Effect -->
+  <p align="center">
     <a href="https://github.com/vistaratech">
-      <img src="https://img.shields.io/badge/Founder-VistaraTech-0A66C2?style=for-the-badge&logo=github&logoColor=white" alt="VistaraTech" />
+      <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=21&duration=2800&pause=1000&color=00D2FF&center=true&vCenter=true&width=680&lines=Full+Stack+Engineer+%7C+Founder+%40+VistaraTech;Hardware+%26+Autonomous+Robotics+Developer;5G+BVLOS+UAV+Teleoperation+Architect;AR%2FVR+%26+Spatial+Computing+Creator;Creator+of+PrintBox+Pro+%26+SuperDrone+5G" alt="Typing SVG" />
+    </a>
+  </p>
+
+  <!-- Interactive Quick Action Badges -->
+  <p align="center">
+    <a href="https://github.com/vistaratech">
+      <img src="https://img.shields.io/badge/🏢_Organization-VistaraTech-0A66C2?style=for-the-badge&logo=github&logoColor=white" alt="VistaraTech" />
     </a>
     <a href="https://wa.me/918883388365">
-      <img src="https://img.shields.io/badge/WhatsApp-Contact%20Me-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp" />
+      <img src="https://img.shields.io/badge/💬_WhatsApp-Direct%20Chat-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp" />
     </a>
-    <img src="https://img.shields.io/badge/Status-Building%20Future%20Tech-FF6F00?style=for-the-badge" alt="Status" />
+    <a href="mailto:vitneshimmanuvel@gmail.com">
+      <img src="https://img.shields.io/badge/📧_Email-Direct%20Inbox-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+    </a>
+    <img src="https://img.shields.io/badge/⚡_Status-Shipping%20Innovations-FF6F00?style=for-the-badge" alt="Status" />
   </p>
 
-  <!-- Primary Tech Stack Badges -->
-  <p>
-    <img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" alt="Flutter" />
-    <img src="https://img.shields.io/badge/React%20Native%20/%20Expo-000000?style=for-the-badge&logo=expo&logoColor=white" alt="Expo" />
-    <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js" />
-    <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
-    <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
-    <img src="https://img.shields.io/badge/ESP32%20/%20IoT-E7352C?style=for-the-badge&logo=espressif&logoColor=white" alt="ESP32" />
-    <img src="https://img.shields.io/badge/Raspberry%20Pi-C51A4A?style=for-the-badge&logo=raspberrypi&logoColor=white" alt="Raspberry Pi" />
-  </p>
-
-  <p>
-    <img src="https://img.shields.io/badge/Three.js-000000?style=flat-square&logo=threedotjs&logoColor=white" alt="Three.js" />
-    <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node.js" />
-    <img src="https://img.shields.io/badge/WebRTC-333333?style=flat-square&logo=webrtc&logoColor=white" alt="WebRTC" />
-    <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL" />
-    <img src="https://img.shields.io/badge/TailwindCSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" alt="TailwindCSS" />
-    <img src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white" alt="Vercel" />
-    <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git" />
+  <!-- Animated Skill Icons Grid -->
+  <p align="center">
+    <a href="https://skillicons.dev">
+      <img src="https://skillicons.dev/icons?i=ts,js,python,flutter,react,nextjs,nodejs,threejs,cpp,kotlin,postgres,sqlite,git,docker,raspberrypi,arduino&perline=8&theme=dark" alt="Tech Stack Icons" />
+    </a>
   </p>
 
 </div>
@@ -39,7 +36,7 @@
 ---
 
 ### 👨‍💻 About Me & Engineering Vision
-I am a passionate **Full Stack Engineer**, **Hardware/Robotics Developer**, and **Spatial Computing (AR/VR) Creator**. I specialize in bridging high-level software ecosystems (Next.js, Flutter, Cloud APIs) with low-latency physical hardware (ESP32 microcontrollers, 5G BVLOS UAV systems, Raspberry Pi kiosks, and custom robotics).
+I am a passionate **Full Stack Engineer**, **Hardware/Robotics Developer**, and **Spatial Computing (AR/VR) Creator**. I engineer end-to-end solutions that bridge high-level cloud software (Next.js, Flutter, Cloud APIs) with low-latency physical hardware (ESP32 microcontrollers, 5G BVLOS UAV teleoperation, Raspberry Pi kiosks, and custom robotics).
 
 My engineering workspace operates across two core initiatives:
 * 🏢 **[VistaraTech](https://github.com/vistaratech)**: Production SaaS platforms, automated hardware kiosks, 5G UAV telemetry systems, enterprise ERP/EHR solutions, and client systems.
@@ -163,3 +160,10 @@ I am always open to discussing new technology ventures, innovative IoT/Robotics 
 * 🏢 **GitHub (Enterprise / VistaraTech)**: [@vistaratech](https://github.com/vistaratech)
 * 🚀 **GitHub (Personal & R&D)**: [@virtualrevolution02-commits](https://github.com/virtualrevolution02-commits)
 * 🌐 **Production SaaS**: [easyrecords.in](https://www.easyrecords.in)
+
+---
+
+<div align="center">
+  <!-- Modern Animated Wave Footer -->
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=2,14,23,30&height=120&section=footer" width="100%" alt="Footer Banner" />
+</div>
